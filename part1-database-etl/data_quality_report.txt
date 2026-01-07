@@ -18,3 +18,4 @@ Records processed: 41
 Duplicates removed: 1
 Missing values handled: 5
 Records loaded successfully: 35
+
