@@ -45,3 +45,4 @@ CREATE TABLE fact_sales (
     FOREIGN KEY (customer_key) REFERENCES dim_customer(customer_key)
 );
 
+
