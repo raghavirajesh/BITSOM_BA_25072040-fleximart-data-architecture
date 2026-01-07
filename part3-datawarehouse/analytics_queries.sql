@@ -68,3 +68,4 @@ FROM (
     GROUP BY c.customer_key
 ) t
 GROUP BY customer_segment;
+
