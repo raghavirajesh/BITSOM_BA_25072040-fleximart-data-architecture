@@ -16,7 +16,6 @@ HAVING COUNT(DISTINCT o.order_id) >= 2
    AND SUM(oi.quantity * oi.unit_price) > 5000
 ORDER BY total_spent DESC;
 
-
 -- Query 2: Product Sales Analysis
 -- Shows categories with revenue greater than 10000
 SELECT
