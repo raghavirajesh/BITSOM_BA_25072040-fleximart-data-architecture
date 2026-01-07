@@ -103,3 +103,4 @@ INSERT INTO fact_sales (date_key, product_key, customer_key, quantity_sold, unit
 (20240209,9,7,4,6000,0,24000),
 (20240210,10,8,4,45000,5000,175000);
 
+
