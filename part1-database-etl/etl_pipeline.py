@@ -223,14 +223,11 @@ print("Data quality report generated.")
 
 import mysql.connector
 
-MYSQL_PASSWORD = "Jikook@99"  # ONE password. Period.
-
-
 # ---------------- CREATE DATABASE ----------------
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Jikook@99"
+    password="password"
 )
 cursor = conn.cursor()
 
@@ -303,7 +300,7 @@ conn.close()
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Jikook@99",
+    password="password",
     database="fleximart"
 )
 cursor = conn.cursor()
