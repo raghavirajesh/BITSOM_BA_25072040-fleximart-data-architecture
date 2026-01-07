@@ -18,4 +18,4 @@ Section C: Trade-offs
 
 One disadvantage of using MongoDB instead of MySQL is weaker enforcement of relational constraints. MongoDB does not support foreign keys, making it harder to maintain strict relationships between entities like customers and orders.
 
-Another drawback is data redundancy. Since MongoDB uses a denormalized structure, the same data may be duplicated across documents. This can lead to consistency issues if updates are not handled carefully. Additionally, for complex transactional systems, relational databases like MySQL still provide stronger ACID guarantees.
+Another drawback is data redundancy. Since MongoDB uses a denormalized structure, same data may be duplicated across documents. This can lead to consistency issues if updates are not handled carefully. Additionally, for complex transactional systems, relational databases like MySQL still provide stronger ACID guarantees.
