@@ -66,6 +66,7 @@ This normalized design helps prevent update anomalies by allowing changes to cus
 
 SECTION 3: Sample Data Representation
 
+Examples used from the csv files.
 ### Customers Table
 
 | customer_id | first_name | last_name | email                    | phone           | city       | registration_date |
