@@ -106,3 +106,6 @@ total_amount: 28000
 { customer_key: 20, customer_name: 'Sneha Reddy', city: 'Hyderabad' }
 
 This example shows how a single sales transaction is transformed into a fact record linked to multiple dimension tables using surrogate keys.
+
+## Notes
+Star schema designed for analytical workloads.
