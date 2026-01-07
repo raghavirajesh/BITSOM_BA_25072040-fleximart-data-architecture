@@ -166,7 +166,7 @@ sales["transaction_date"] = sales["transaction_date"].dt.date
 #print(sales.head(40))
 
 # -----------------------
-# OPTIONAL: SAVE CLEAN FILES
+# SAVE CLEAN FILES
 # -----------------------
 
 customers.to_csv("customers_clean.csv", index=False)
